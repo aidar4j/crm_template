@@ -4,7 +4,7 @@ import com.playground.crm.model.enums.Gender
 import com.playground.crm.model.enums.Role
 import java.util.*
 
-data class CreateUserDto(
+class ReadUserDto (
   val name: String,
   val email: String,
   val gender: Gender,
